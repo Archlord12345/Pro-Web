@@ -1,9 +1,9 @@
 # Galerie interactive — ETS Pro-Informatique
 
-- [ ] Vérifier la branche principale et l’état du dépôt Archlord12345/Pro-Web.
-- [ ] Remplacer les fichiers du dépôt Archlord12345/Pro-Web par le site ETS Pro-Informatique actuel.
-- [ ] Valider les fichiers remplacés puis créer un commit de synchronisation.
-- [ ] Envoyer la version complète vers GitHub et confirmer le commit distant.
+- [x] Vérifier la branche principale et l’état du dépôt Archlord12345/Pro-Web.
+- [x] Remplacer les fichiers du dépôt Archlord12345/Pro-Web par le site ETS Pro-Informatique actuel.
+- [x] Valider les fichiers remplacés puis créer un commit de synchronisation.
+- [x] Envoyer la version complète vers GitHub et confirmer le commit distant.
 - [x] Repositionner le Cybercafé Au Débit comme un service intégré d’ETS Pro-Informatique.
 - [x] Retirer la formulation « face au cybercafé » des coordonnées, itinéraires et contenus SEO.
 - [x] Remplacer la preuve visuelle décorative de la page Formalités par une scène administrative concrète.
