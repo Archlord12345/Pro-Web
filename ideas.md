@@ -63,6 +63,24 @@ Le ton est direct, clair et orienté résultat : il explique la solution, nomme 
 
 Le site utilisera le visuel officiel fourni comme marque principale. Un **symbole de ruban ascendant cyan et vert**, sans texte, sera aussi créé pour servir de favicon et de repère graphique à petite taille.
 
+Le logo « Informatique » fourni remplace désormais la précédente marque dans l’en-tête, le pied de page, le favicon et les aperçus sociaux. Sa version transparente s’intègre directement aux fonds clairs et sombres, sans vignette blanche ajoutée.
+
+Le favicon utilise uniquement la spirale verte du symbole : une forme compacte, sans texte ni fond, choisie pour rester identifiable dans les onglets de navigateur à très petite taille.
+
+Les métadonnées suivent la même logique de signalétique : chaque route porte un intitulé précis, un résumé concis et une URL canonique explicite. Le site expose également son identité locale — adresse, horaires, téléphone et services — sous forme de données structurées, sans avis ni notation inventés.
+
+Les pages de services ajoutent un fil d’Ariane et une barre de partage comme des repères de dossier : le chemin Accueil → Services → activité rend le parcours et son contexte explicites. La 404 reprend le vocabulaire de production, le logo et deux sorties prioritaires plutôt qu’un écran technique impersonnel.
+
+Chaque service dispose d’un visuel de partage propre, aligné sur son activité réelle afin que les aperçus sociaux donnent immédiatement le bon contexte. Les boutons sociaux utilisent un balayage cyan-vers-vert et un déplacement très court, tandis que les FAQ conservent l’apparence de fiches consultables de l’atelier.
+
+Le sound design reste volontairement discret et déclenché uniquement après activation explicite du visiteur. Les confirmations privilégient des tonalités courtes, nettes et légères ; elles soutiennent les actions (navigation, partage, filtre, formulaire) sans produire de fond sonore ni gêner la lecture.
+
+L’ambiance Atelier est une couche distincte, toujours désactivée au chargement et réglable avec le volume général. Elle évoque un espace de production calme par une texture très légère ; elle ne remplace jamais les contenus et peut être interrompue instantanément. Sur mobile, les validations du devis ajoutent une vibration minimale uniquement après une action volontaire.
+
+Le panneau sonore distingue désormais trois intentions d’ambiance : **Atelier** pour une présence de fabrication feutrée, **Calme** pour une lecture reposante et **Production** pour une énergie de travail mesurée. Un témoin vert pulsé n’apparaît que lorsqu’une ambiance joue réellement. Les vibrations mobiles disposent de leur propre réglage, afin de préserver une expérience totalement contrôlable.
+
+Les réglages sonores vivent désormais dans une page Paramètres dédiée plutôt que dans un élément flottant. La page adopte le langage de la régie d’atelier : une introduction éditoriale à gauche, une console claire à droite, et des explications qui donnent à l’utilisateur le contrôle sans alourdir les pages commerciales.
+
 ### Couleur signature
 
 **Vert Repère — #68B62A.** Cette couleur doit être utilisée avec parcimonie pour les appels à l’action, les points de contact et les détails qui demandent l’attention.
@@ -84,3 +102,13 @@ La localisation est désormais précisée par l’utilisateur : **face au cyberc
 Le ruban bicolore **cyan/vert**, ponctué d’encre sombre, est traité comme une signature structurelle : il rythme chaque en-tête de page, les fiches de services, les cadres d’images et le pied de page. Les pages privilégient les preuves de production — papier, textiles, machines, documents et plans de travail — plutôt que des maquettes abstraites. Les cartes sont explicitement traitées comme des **fiches de fabrication** : code de production, statut, découpe angulaire, règle colorée et formats volontairement variés.
 
 Les pages métier prolongent ce langage par un **flux continu de production** : un séparateur cyan/vert/encres traverse chaque section, tandis que les fiches de service deviennent des supports de preuve en intégrant à faible contraste des détails de machines, papiers, textiles, objets et documents réellement représentatifs des catégories décrites.
+
+La fluidité repose sur des **transitions courtes et directionnelles** : l’entrée de page suit un mouvement vertical discret, le soulignement de navigation se trace de gauche à droite, les liens de contact se décalent légèrement à l’action et le raccourci WhatsApp émet un signal visuel doux. Les mouvements restent limités à l’opacité et aux transformations, avec une désactivation complète lorsque l’utilisateur préfère réduire les animations.
+
+Le ruban devient un **guide de production continu** : il signe les transitions de sections, les cadres d’images, les étiquettes de fabrication et les repères de navigation. Chaque héros garde la même architecture mais reçoit une preuve contextuelle propre : atelier de fabrication, comptoir de devis, bureau administratif ou environnement cybercafé selon le service présenté.
+
+Les contenus se dévoilent à l’approche du viewport comme des éléments qui arrivent sur une table de production : une montée très courte et un fondu, échelonnés de 55 ms entre les fiches liées. Aucun mouvement n’est imposé aux personnes qui demandent une réduction des animations.
+
+Les champs du devis agissent comme une fiche de fabrication contrôlée au fil de la saisie : une consigne neutre devient une confirmation verte ou une correction rouge, sans attendre l’envoi du formulaire.
+
+Lors de la transmission, le bouton devient une ligne de production active : son texte précise la préparation, un repère tourne et un trait lumineux avance. Le mouvement réduit conserve uniquement le changement de libellé et l’état bloqué.

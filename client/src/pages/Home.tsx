@@ -26,6 +26,7 @@ import {
   Printer,
   ScanLine,
   Send,
+  Settings2,
   Shirt,
   Sparkles,
   X,
@@ -39,40 +40,40 @@ import {
 
 const phone = "+237 699 97 98 57";
 const whatsappNumber = "237699979857";
-const officialLogo = "/images/logo-officiel.jpeg";
-const brandSymbol = "/images/logo-symbol.png";
-const heroImage = "/images/hero-print-studio.jpg";
-const personalisationImage = "/images/personalisation.jpg";
-const designImage = "/images/design-works.jpg";
-const servicePoster = "/images/services-affiche.jpeg";
+const officialLogo = "/manus-storage/logo-informatique-transparent_7b3106be.png";
+const brandSymbol = "/manus-storage/ets-pro-logo-symbol_a3502ff4.png";
+const heroImage = "/manus-storage/ets-pro-hero-print-studio_2fa49fdb.jpg";
+const personalisationImage = "/manus-storage/ets-pro-personalisation_b445858a.jpg";
+const designImage = "/manus-storage/ets-pro-design-works_ccfd28a9.jpg";
+const servicePoster = "/manus-storage/ets-pro-services-affiche_8be52dd8.jpeg";
 
 const galleryWorks = [
   {
     title: "Banderoles & visibilité grand format",
     category: "Grand format",
     description: "Banderoles, affiches et habillages pensés pour donner de l’ampleur à votre communication.",
-    image: "/images/gallery-grand-format.jpg",
+    image: "/manus-storage/ets-pro-gallery-grand-format_b31bb5a2.jpg",
     type: "Impression",
   },
   {
     title: "Textile & accessoires personnalisés",
     category: "Sérigraphie",
     description: "T-shirts, polos, casquettes et objets promotionnels personnalisés pour vos équipes et événements.",
-    image: "/images/gallery-serigraphie.jpg",
+    image: "/manus-storage/ets-pro-gallery-serigraphie_e0d8472e.jpg",
     type: "Sérigraphie",
   },
   {
     title: "Cartes, dépliants & supports utiles",
     category: "Impression",
     description: "Cartes, invitations, flyers, badges et documents de communication préparés dans le bon format.",
-    image: "/images/gallery-stationery.jpg",
+    image: "/manus-storage/ets-pro-gallery-stationery_7ef8d754.jpg",
     type: "Impression",
   },
   {
     title: "Tirages photo & encadrements",
     category: "Photo",
     description: "Agrandissements et impressions décoratives pour transformer une image en objet à conserver ou offrir.",
-    image: "/images/gallery-photo.jpg",
+    image: "/manus-storage/ets-pro-gallery-photo_6e7cc566.jpg",
     type: "Photo",
   },
 ];
@@ -171,7 +172,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-[#f7f6f1]/95 backdrop-blur-xl">
         <div className="mx-auto flex h-[84px] max-w-7xl items-center justify-between px-4 sm:px-8">
           <a href="#accueil" className="flex items-center" aria-label="ETS Pro-Informatique, accueil">
-            <img src={officialLogo} alt="Logo officiel ETS Pro-Informatique" className="h-14 w-32 object-contain object-left" />
+            <img src={officialLogo} alt="Logo officiel Informatique" className="h-16 w-40 object-contain object-left" />
           </a>
 
           <nav className="hidden items-center gap-7 text-sm font-bold text-slate-600 lg:flex" aria-label="Navigation principale">
@@ -180,6 +181,7 @@ export default function Home() {
             <a href="/cybercafe-au-debit" className="nav-link">Cyber Au Débit</a>
             <a href="/a-propos" className="nav-link">À propos</a>
             <a href="/contact" className="nav-link">Contact</a>
+            <a href="/parametres" className="nav-link">Paramètres</a>
           </nav>
 
           <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noreferrer" className="hidden items-center gap-2 rounded-full bg-[#68B62A] px-5 py-3 text-sm font-extrabold text-white shadow-[0_10px_22px_rgba(104,182,42,0.25)] transition hover:-translate-y-0.5 hover:bg-[#579c20] active:scale-[0.97] sm:flex">
@@ -197,6 +199,7 @@ export default function Home() {
               <a href="/cybercafe-au-debit" onClick={() => setMenuOpen(false)} className="text-left">Cyber Au Débit</a>
               <a href="/a-propos" onClick={() => setMenuOpen(false)} className="text-left">À propos</a>
               <a href="/contact" onClick={() => setMenuOpen(false)} className="text-left">Nous contacter</a>
+              <a href="/parametres" onClick={() => setMenuOpen(false)} className="flex items-center gap-2 text-cyan-800"><Settings2 className="h-4 w-4" /> Paramètres</a>
               <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noreferrer" className="mt-1 flex w-fit items-center gap-2 rounded-full bg-[#68B62A] px-5 py-3 text-sm text-white"><MessageCircle className="h-4 w-4" /> WhatsApp</a>
             </nav>
           </div>
@@ -351,8 +354,8 @@ export default function Home() {
           <div className="relative mx-auto grid max-w-7xl gap-12 px-4 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center lg:gap-20">
             <div className="relative max-w-md">
               <div className="absolute -left-4 -top-4 h-20 w-20 rounded-3xl border border-[#68B62A]/40" />
-              <div className="relative overflow-hidden rounded-[2rem] border-8 border-white bg-slate-100 shadow-[0_25px_55px_rgba(15,23,42,0.14)]">
-                <img src={officialLogo} alt="Logo officiel ETS Pro-Informatique" className="aspect-[1.4/1] w-full object-cover" />
+              <div className="relative overflow-hidden rounded-[2rem] border-8 border-white/70 p-3 shadow-[0_25px_55px_rgba(15,23,42,0.14)]">
+                <img src={officialLogo} alt="Logo officiel Informatique" className="aspect-[1.9/1] w-full object-contain" />
               </div>
               <div className="absolute -bottom-6 -right-4 rounded-2xl bg-slate-950 px-5 py-4 text-white shadow-lg sm:-right-8"><p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-cyan-300">Notre point d’ancrage</p><p className="mt-1 font-display text-xl font-bold tracking-[-0.05em]">Bafoussam</p></div>
             </div>
@@ -412,8 +415,8 @@ export default function Home() {
 
       <footer className="bg-slate-950 px-4 pb-8 pt-12 text-white sm:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 border-b border-white/10 pb-10 md:grid-cols-[1.2fr_0.8fr_0.8fr]">
-          <div><img src={officialLogo} alt="Logo officiel ETS Pro-Informatique" className="h-16 w-40 object-contain object-left" /><p className="mt-5 max-w-xs text-sm leading-6 text-slate-400">Impression numérique, graphisme de production, grand format, formalités utiles et objets personnalisés à Bafoussam.</p></div>
-          <div><p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-cyan-300">Navigation</p><div className="mt-5 flex flex-col gap-3 text-sm font-bold text-slate-300"><a href="/services" className="text-left hover:text-white">Services</a><a href="/galerie" className="text-left hover:text-white">Galerie</a><a href="/cybercafe-au-debit" className="text-left hover:text-white">Cyber Au Débit</a><a href="/contact" className="text-left hover:text-white">Contact & devis</a></div></div>
+          <div><img src={officialLogo} alt="Logo officiel Informatique" className="h-20 w-44 object-contain object-left" /><p className="mt-5 max-w-xs text-sm leading-6 text-slate-400">Impression numérique, graphisme de production, grand format, formalités utiles et objets personnalisés à Bafoussam.</p></div>
+          <div><p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-cyan-300">Navigation</p><div className="mt-5 flex flex-col gap-3 text-sm font-bold text-slate-300"><a href="/services" className="text-left hover:text-white">Services</a><a href="/galerie" className="text-left hover:text-white">Galerie</a><a href="/cybercafe-au-debit" className="text-left hover:text-white">Cyber Au Débit</a><a href="/contact" className="text-left hover:text-white">Contact & devis</a><a href="/parametres" className="flex items-center gap-2 text-cyan-300 hover:text-white"><Settings2 className="h-3.5 w-3.5" /> Paramètres</a></div></div>
           <div><p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-cyan-300">Contact rapide</p><a className="mt-5 block text-sm font-bold text-slate-300 hover:text-white" href={`tel:${phone.replace(/\s/g, "")}`}>+237 699 97 98 57</a><a className="mt-3 block text-sm font-bold text-slate-300 hover:text-white" href="mailto:proinformatique2@gmail.com">proinformatique2@gmail.com</a><p className="mt-3 text-sm text-slate-400">Descente Akwa, Bafoussam · Cybercafé Au Débit by Pro</p></div>
         </div>
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-3 pt-7 text-[11px] font-medium text-slate-500 sm:flex-row"><p>© {new Date().getFullYear()} ETS Pro-Informatique. Tous droits réservés.</p><p>Site vitrine · Informations à confirmer pour tout devis ou délai.</p></div>
